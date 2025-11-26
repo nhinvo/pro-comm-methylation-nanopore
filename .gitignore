@@ -1,0 +1,29 @@
+# folders to ignore at all depths
+**/logs/**
+**/log/**
+**/scratch/**
+**/.snakemake/**
+**/trash/**
+**/misc/**
+**/miscs/**
+**/Misc/**
+**/Miscs/**
+**/__pycache__/**
+
+**trash**
+**README**
+
+!README.md
+!MicrobeMod-Snakemake/README.md
+
+# AnvioGeneAnnotation Folder
+AnvioGeneAnnotation/data/AnvioContigDb/ 
+AnvioGeneAnnotation/data/CorrectedFasta/
+AnvioGeneAnnotation/data/CyCogAnnotDir/
+AnvioGeneAnnotation/data/GeneCalls/
+
+# QC  
+QC/GenomeCov/SamtoolsDepth/data/samtools_depth/
+
+# RawDataPreprocessing  
+RawDataPreprocessing/dorado/

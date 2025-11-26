@@ -1,0 +1,42 @@
+from pathlib import Path
+import pandas as pd
+
+### Load samples.tsv file and obtain list of samples ###
+SAMPLE_TABLE = pd.read_csv(config["input"]["sample table"], index_col="sample", sep="\t")
+SAMPLE_TABLE.index = SAMPLE_TABLE.index.map(str)  # convert index (samples) to string 
+SAMPLES = SAMPLE_TABLE.index.tolist()  # obtain list of samples 
+
+### Additional runs ### 
+# Microbemod 50% methylation threshold run 
+SAMPLES = [
+    'SQK-NBD114-24_barcode19_1', 
+    'SQK-NBD114-24_barcode20_1',
+    'SQK-NBD114-24_barcode21_1',
+]
+
+##### Define intermediate/results files/directories #####
+scratch_dir = Path(config["scratch directory"])
+results_dir = Path(config["results directory"])
+
+Path(scratch_dir).mkdir(exist_ok=True, parents=True)
+Path(results_dir).mkdir(exist_ok=True, parents=True)
+
+scratch_dict = {
+    "read_mapping": scratch_dir / "read_mapping", 
+    "microbemod_call_methylation": scratch_dir / "microbemod_call_methylation", 
+    "microbemod_annotate_rm": scratch_dir / "microbemod_annotate_rm",
+}
+
+results_dict = {
+    'parsed_call_methylation': results_dir / "call_methylation.tsv", 
+    'parsed_annotate_rm': results_dir / "annotate_rm.tsv",
+}
+
+##### Define output files to generate #####
+rule all:
+    input:
+        results_dict['parsed_call_methylation'], 
+        
+##### Import all .smk rule files #####
+for smk_file in Path('workflow/rules').glob('*smk'):
+    include: str(smk_file).replace('workflow/', '') 

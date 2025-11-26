@@ -1,0 +1,7 @@
+logs/*
+!logs/.temp.txt
+.snakemake
+results/*
+scratch/*
+trash/*
+workflow/installations

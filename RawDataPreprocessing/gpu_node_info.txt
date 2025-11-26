@@ -1,0 +1,1323 @@
+NodeName=node019 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node019,centos7
+   ActiveFeatures=node019,centos7
+   Gres=gpu:1
+   NodeAddr=node019 NodeHostName=node019 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node020 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=0.01
+   AvailableFeatures=node020,centos7
+   ActiveFeatures=node020,centos7
+   Gres=gpu:1
+   NodeAddr=node020 NodeHostName=node020 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=0 FreeMem=60653 Sockets=2 Boards=1
+   State=IDLE+DRAIN ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=2024-09-29T12:41:29 SlurmdStartTime=2024-09-29T12:42:51
+   LastBusyTime=2024-10-23T06:40:16
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=to_be_removed [root@2024-10-21T11:16:04]
+
+NodeName=node021 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node021,centos7
+   ActiveFeatures=node021,centos7
+   Gres=gpu:1
+   NodeAddr=node021 NodeHostName=node021 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node022 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=0.01
+   AvailableFeatures=node022,centos7
+   ActiveFeatures=node022,centos7
+   Gres=gpu:1
+   NodeAddr=node022 NodeHostName=node022 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=0 FreeMem=60540 Sockets=2 Boards=1
+   State=IDLE+DRAIN ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=2024-05-24T12:44:56 SlurmdStartTime=2024-05-24T12:46:24
+   LastBusyTime=2024-10-23T06:40:16
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=to_be_removed [root@2024-10-21T11:16:04]
+
+NodeName=node023 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node023,centos7
+   ActiveFeatures=node023,centos7
+   Gres=gpu:1
+   NodeAddr=node023 NodeHostName=node023 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node024 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node024,centos7
+   ActiveFeatures=node024,centos7
+   Gres=gpu:1
+   NodeAddr=node024 NodeHostName=node024 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node025 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=0.01
+   AvailableFeatures=node025,centos7
+   ActiveFeatures=node025,centos7
+   Gres=gpu:1
+   NodeAddr=node025 NodeHostName=node025 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=0 FreeMem=61766 Sockets=2 Boards=1
+   State=IDLE+DRAIN ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=2024-05-24T12:43:39 SlurmdStartTime=2024-05-24T12:44:54
+   LastBusyTime=2024-10-23T06:40:16
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=to_be_removed [root@2024-10-21T11:16:04]
+
+NodeName=node026 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node026,centos7
+   ActiveFeatures=node026,centos7
+   Gres=gpu:1
+   NodeAddr=node026 NodeHostName=node026 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node027 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=0.01
+   AvailableFeatures=node027,centos7
+   ActiveFeatures=node027,centos7
+   Gres=gpu:1
+   NodeAddr=node027 NodeHostName=node027 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=0 FreeMem=62134 Sockets=2 Boards=1
+   State=IDLE+DRAIN ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-05-24T12:45:06 SlurmdStartTime=2024-05-24T12:46:20
+   LastBusyTime=2024-10-23T06:40:16
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=to_be_removed [root@2024-10-21T11:16:04]
+
+NodeName=node030 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=0.01
+   AvailableFeatures=node030,centos7
+   ActiveFeatures=node030,centos7
+   Gres=gpu:1
+   NodeAddr=node030 NodeHostName=node030 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=0 FreeMem=60686 Sockets=2 Boards=1
+   State=IDLE+DRAIN ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-08-13T22:07:58 SlurmdStartTime=2024-08-13T22:09:32
+   LastBusyTime=2024-10-23T06:40:16
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=to_be_removed [root@2024-10-21T11:16:04]
+
+NodeName=node031 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=0.01
+   AvailableFeatures=node031,centos7
+   ActiveFeatures=node031,centos7
+   Gres=gpu:1
+   NodeAddr=node031 NodeHostName=node031 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=0 FreeMem=60164 Sockets=2 Boards=1
+   State=IDLE+DRAIN ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-10-10T16:15:19 SlurmdStartTime=2024-10-10T16:16:33
+   LastBusyTime=2024-10-23T06:40:16
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=to_be_removed [root@2024-10-21T11:16:04]
+
+NodeName=node032 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=0.01
+   AvailableFeatures=node032,centos7
+   ActiveFeatures=node032,centos7
+   Gres=gpu:1
+   NodeAddr=node032 NodeHostName=node032 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=0 FreeMem=60715 Sockets=2 Boards=1
+   State=IDLE+DRAIN ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-10-10T09:40:34 SlurmdStartTime=2024-10-10T09:41:47
+   LastBusyTime=2024-10-23T06:40:16
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=to_be_removed [root@2024-10-21T11:16:04]
+
+NodeName=node033 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node033,centos7
+   ActiveFeatures=node033,centos7
+   Gres=gpu:1
+   NodeAddr=node033 NodeHostName=node033 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node034 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node034,centos7
+   ActiveFeatures=node034,centos7
+   Gres=gpu:1
+   NodeAddr=node034 NodeHostName=node034 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=to_be_removed [root@2024-10-21T11:16:04]
+
+NodeName=node035 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=0.01
+   AvailableFeatures=node035,centos7
+   ActiveFeatures=node035,centos7
+   Gres=gpu:1
+   NodeAddr=node035 NodeHostName=node035 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=0 FreeMem=62537 Sockets=2 Boards=1
+   State=IDLE+DRAIN ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-10-18T17:41:28 SlurmdStartTime=2024-10-18T17:43:09
+   LastBusyTime=2024-10-23T06:40:16
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=to_be_removed [root@2024-10-21T11:16:04]
+
+NodeName=node036 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node036,centos6
+   ActiveFeatures=node036,centos6
+   Gres=gpu:1
+   NodeAddr=node036 NodeHostName=node036 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node073 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=13 CPUEfctv=16 CPUTot=16 CPULoad=12.16
+   AvailableFeatures=node073,centos7
+   ActiveFeatures=node073,centos7
+   Gres=gpu:1
+   NodeAddr=node073 NodeHostName=node073 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=28000 FreeMem=48661 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-08-22T09:15:25 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T13:22:02
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=13,mem=28000M
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node082 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node082,centos7
+   ActiveFeatures=node082,centos7
+   Gres=gpu:1
+   NodeAddr=node082 NodeHostName=node082 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node083 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node083,centos7
+   ActiveFeatures=node083,centos7
+   Gres=gpu:1
+   NodeAddr=node083 NodeHostName=node083 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node084 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node084,centos7
+   ActiveFeatures=node084,centos7
+   Gres=gpu:1
+   NodeAddr=node084 NodeHostName=node084 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node087 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=4 CPUEfctv=16 CPUTot=16 CPULoad=0.01
+   AvailableFeatures=node087,centos7
+   ActiveFeatures=node087,centos7
+   Gres=gpu:1
+   NodeAddr=node087 NodeHostName=node087 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=51200 FreeMem=43018 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any 
+   BootTime=2024-07-08T07:33:50 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T13:52:32
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=4,mem=50G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node093 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node093,centos7
+   ActiveFeatures=node093,centos7
+   Gres=gpu:1
+   NodeAddr=node093 NodeHostName=node093 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node094 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node094,centos7
+   ActiveFeatures=node094,centos7
+   Gres=gpu:1
+   NodeAddr=node094 NodeHostName=node094 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node095 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node095,centos7
+   ActiveFeatures=node095,centos7
+   Gres=gpu:1
+   NodeAddr=node095 NodeHostName=node095 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node096 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node096,centos7
+   ActiveFeatures=node096,centos7
+   Gres=gpu:1
+   NodeAddr=node096 NodeHostName=node096 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node097 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node097,centos7
+   ActiveFeatures=node097,centos7
+   Gres=gpu:1
+   NodeAddr=node097 NodeHostName=node097 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node098 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node098,centos7
+   ActiveFeatures=node098,centos7
+   Gres=gpu:1
+   NodeAddr=node098 NodeHostName=node098 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node099 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node099,centos7
+   ActiveFeatures=node099,centos7
+   Gres=gpu:1
+   NodeAddr=node099 NodeHostName=node099 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node100 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node100,centos7
+   ActiveFeatures=node100,centos7
+   Gres=gpu:1
+   NodeAddr=node100 NodeHostName=node100 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node102 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node102,centos7
+   ActiveFeatures=node102,centos7
+   Gres=gpu:1
+   NodeAddr=node102 NodeHostName=node102 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node103 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node103,centos7
+   ActiveFeatures=node103,centos7
+   Gres=gpu:1
+   NodeAddr=node103 NodeHostName=node103 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node104 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node104,centos7
+   ActiveFeatures=node104,centos7
+   Gres=gpu:1
+   NodeAddr=node104 NodeHostName=node104 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node105 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node105,centos7
+   ActiveFeatures=node105,centos7
+   Gres=gpu:1
+   NodeAddr=node105 NodeHostName=node105 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node106 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node106,centos7
+   ActiveFeatures=node106,centos7
+   Gres=gpu:1
+   NodeAddr=node106 NodeHostName=node106 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node107 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node107,centos7
+   ActiveFeatures=node107,centos7
+   Gres=gpu:1
+   NodeAddr=node107 NodeHostName=node107 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node108 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node108,centos7
+   ActiveFeatures=node108,centos7
+   Gres=gpu:1
+   NodeAddr=node108 NodeHostName=node108 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node146 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=0.03
+   AvailableFeatures=node146,centos7
+   ActiveFeatures=node146,centos7
+   Gres=gpu:1
+   NodeAddr=node146 NodeHostName=node146 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=0 FreeMem=54314 Sockets=2 Boards=1
+   State=IDLE+PLANNED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-09-22T17:44:14 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T15:50:55
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node147 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node147,centos7
+   ActiveFeatures=node147,centos7
+   Gres=gpu:1
+   NodeAddr=node147 NodeHostName=node147 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node149 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=15 CPUEfctv=16 CPUTot=16 CPULoad=0.75
+   AvailableFeatures=node149,centos7
+   ActiveFeatures=node149,centos7
+   Gres=gpu:1
+   NodeAddr=node149 NodeHostName=node149 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=51200 FreeMem=45536 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-05-24T12:45:04 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T15:18:46
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=15,mem=50G,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node150 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node150,centos7
+   ActiveFeatures=node150,centos7
+   Gres=gpu:1
+   NodeAddr=node150 NodeHostName=node150 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node151 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node151,centos7
+   ActiveFeatures=node151,centos7
+   Gres=gpu:1
+   NodeAddr=node151 NodeHostName=node151 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=retire-initiation [root@2024-10-24T16:33:11]
+
+NodeName=node152 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=2 CPUEfctv=16 CPUTot=16 CPULoad=0.92
+   AvailableFeatures=node152,centos7
+   ActiveFeatures=node152,centos7
+   Gres=gpu:1
+   NodeAddr=node152 NodeHostName=node152 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=51200 FreeMem=49532 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-10-17T18:51:36 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T14:56:50
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=2,mem=50G,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node153 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node153,centos7
+   ActiveFeatures=node153,centos7
+   Gres=gpu:1
+   NodeAddr=node153 NodeHostName=node153 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=bad_disk [root@2024-04-30T14:01:55]
+
+NodeName=node154 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=15 CPUEfctv=16 CPUTot=16 CPULoad=0.60
+   AvailableFeatures=node154,centos7
+   ActiveFeatures=node154,centos7
+   Gres=gpu:1
+   NodeAddr=node154 NodeHostName=node154 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=51200 FreeMem=24101 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-10-03T14:31:02 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T14:58:57
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=15,mem=50G,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node155 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node155,centos7
+   ActiveFeatures=node155,centos7
+   Gres=gpu:1
+   NodeAddr=node155 NodeHostName=node155 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=no_ib [root@2024-06-27T09:47:25]
+
+NodeName=node156 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=1 CPUEfctv=16 CPUTot=16 CPULoad=0.01
+   AvailableFeatures=node156,centos7
+   ActiveFeatures=node156,centos7
+   Gres=gpu:1
+   NodeAddr=node156 NodeHostName=node156 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=51200 FreeMem=58819 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-10-12T11:27:58 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T15:27:54
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=1,mem=50G,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node157 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node157,centos7
+   ActiveFeatures=node157,centos7
+   Gres=gpu:1
+   NodeAddr=node157 NodeHostName=node157 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=retire-initiation [root@2024-10-24T16:33:11]
+
+NodeName=node158 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=16 CPUEfctv=16 CPUTot=16 CPULoad=16.01
+   AvailableFeatures=node158,centos7
+   ActiveFeatures=node158,centos7
+   Gres=gpu:1
+   NodeAddr=node158 NodeHostName=node158 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=16000 FreeMem=14238 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-05-24T12:44:17 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T13:32:59
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=16,mem=16000M,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node159 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=16 CPUEfctv=16 CPUTot=16 CPULoad=16.01
+   AvailableFeatures=node159,centos7
+   ActiveFeatures=node159,centos7
+   Gres=gpu:1
+   NodeAddr=node159 NodeHostName=node159 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=16000 FreeMem=20689 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-06-20T09:17:12 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T13:32:59
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=16,mem=16000M,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node160 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=16 CPUEfctv=16 CPUTot=16 CPULoad=16.01
+   AvailableFeatures=node160,centos7
+   ActiveFeatures=node160,centos7
+   Gres=gpu:1
+   NodeAddr=node160 NodeHostName=node160 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=16000 FreeMem=26955 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-05-24T12:45:24 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T13:32:59
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=16,mem=16000M,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node161 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=16 CPUEfctv=16 CPUTot=16 CPULoad=16.01
+   AvailableFeatures=node161,centos7
+   ActiveFeatures=node161,centos7
+   Gres=gpu:1
+   NodeAddr=node161 NodeHostName=node161 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=16000 FreeMem=39958 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=2024-05-24T12:43:40 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T03:28:52
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=16,mem=16000M,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node162 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node162,centos7
+   ActiveFeatures=node162,centos7
+   Gres=gpu:1
+   NodeAddr=node162 NodeHostName=node162 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node163 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node163,centos7
+   ActiveFeatures=node163,centos7
+   Gres=gpu:1
+   NodeAddr=node163 NodeHostName=node163 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node164 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=1 CPUEfctv=16 CPUTot=16 CPULoad=0.02
+   AvailableFeatures=node164,centos7
+   ActiveFeatures=node164,centos7
+   Gres=gpu:1
+   NodeAddr=node164 NodeHostName=node164 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=51200 FreeMem=38178 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-10-17T08:36:15 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T14:41:39
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=1,mem=50G,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node165 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node165,centos7
+   ActiveFeatures=node165,centos7
+   Gres=gpu:1
+   NodeAddr=node165 NodeHostName=node165 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node166 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node166,centos7
+   ActiveFeatures=node166,centos7
+   Gres=gpu:1
+   NodeAddr=node166 NodeHostName=node166 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=wont_power_on [root@2024-08-19T16:58:08]
+
+NodeName=node167 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node167,centos6
+   ActiveFeatures=node167,centos6
+   Gres=gpu:1
+   NodeAddr=node167 NodeHostName=node167 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node168 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=12 CPUEfctv=16 CPUTot=16 CPULoad=11.98
+   AvailableFeatures=node168,centos7
+   ActiveFeatures=node168,centos7
+   Gres=gpu:1
+   NodeAddr=node168 NodeHostName=node168 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=62200 FreeMem=30439 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-05-23T18:24:52 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T13:32:59
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=12,mem=62200M,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node169 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=16 CPUEfctv=16 CPUTot=16 CPULoad=15.99
+   AvailableFeatures=node169,centos7
+   ActiveFeatures=node169,centos7
+   Gres=gpu:1
+   NodeAddr=node169 NodeHostName=node169 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=16000 FreeMem=12740 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-10-12T01:19:04 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T13:32:59
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=16,mem=16000M,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node170 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=16 CPUEfctv=16 CPUTot=16 CPULoad=16.01
+   AvailableFeatures=node170,centos7
+   ActiveFeatures=node170,centos7
+   Gres=gpu:1
+   NodeAddr=node170 NodeHostName=node170 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=16000 FreeMem=23432 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=2024-05-24T12:43:37 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T03:28:39
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=16,mem=16000M,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node171 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node171,centos7
+   ActiveFeatures=node171,centos7
+   Gres=gpu:1
+   NodeAddr=node171 NodeHostName=node171 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=missing_disk [root@2024-05-28T11:37:59]
+
+NodeName=node172 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=16 CPUEfctv=16 CPUTot=16 CPULoad=16.01
+   AvailableFeatures=node172,centos7
+   ActiveFeatures=node172,centos7
+   Gres=gpu:1
+   NodeAddr=node172 NodeHostName=node172 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=16000 FreeMem=24725 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-05-24T12:44:39 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T13:22:02
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=16,mem=16000M,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node173 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=14 CPUEfctv=16 CPUTot=16 CPULoad=14.01
+   AvailableFeatures=node173,centos7
+   ActiveFeatures=node173,centos7
+   Gres=gpu:1
+   NodeAddr=node173 NodeHostName=node173 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=14000 FreeMem=20372 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-08-27T16:11:34 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T13:21:57
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=14,mem=14000M,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node174 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node174,centos7
+   ActiveFeatures=node174,centos7
+   Gres=gpu:1
+   NodeAddr=node174 NodeHostName=node174 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=wont_power_on [root@2024-06-03T09:55:17]
+
+NodeName=node175 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=14 CPUEfctv=32 CPUTot=32 CPULoad=0.02
+   AvailableFeatures=node175,centos7
+   ActiveFeatures=node175,centos7
+   Gres=gpu:1
+   NodeAddr=node175 NodeHostName=node175 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=51200 FreeMem=35449 Sockets=2 Boards=1
+   State=MIXED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-05-24T13:04:39 SlurmdStartTime=2024-10-22T13:04:34
+   LastBusyTime=2024-10-28T14:56:50
+   CfgTRES=cpu=32,mem=62.50G,billing=32,gres/gpu=1
+   AllocTRES=cpu=14,mem=50G,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node176 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=0.02
+   AvailableFeatures=node176,centos7
+   ActiveFeatures=node176,centos7
+   Gres=gpu:1
+   NodeAddr=node176 NodeHostName=node176 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=0 FreeMem=61744 Sockets=2 Boards=1
+   State=IDLE+DRAIN ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-08-07T10:36:22 SlurmdStartTime=2024-08-07T10:44:53
+   LastBusyTime=2024-10-23T06:40:14
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=gres/gpu count reported lower than configured (0 < 1) [root@2024-07-25T10:21:49]
+
+NodeName=node177 Arch=x86_64 CoresPerSocket=8 
+   CPUAlloc=16 CPUEfctv=16 CPUTot=16 CPULoad=9.36
+   AvailableFeatures=node177,centos7
+   ActiveFeatures=node177,centos7
+   Gres=gpu:1
+   NodeAddr=node177 NodeHostName=node177 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=64000 AllocMem=64000 FreeMem=22220 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=2024-09-29T03:23:33 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T14:38:11
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=cpu=16,mem=62.50G
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node178 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node178,centos7
+   ActiveFeatures=node178,centos7
+   Gres=gpu:1
+   NodeAddr=node178 NodeHostName=node178 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=no_1g [root@2024-10-03T11:18:46]
+
+NodeName=node179 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node179,centos7
+   ActiveFeatures=node179,centos7
+   Gres=gpu:1
+   NodeAddr=node179 NodeHostName=node179 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=completely_off [root@2024-06-13T12:56:38]
+
+NodeName=node180 CoresPerSocket=8 
+   CPUAlloc=0 CPUEfctv=16 CPUTot=16 CPULoad=N/A
+   AvailableFeatures=node180,centos7
+   ActiveFeatures=node180,centos7
+   Gres=gpu:1
+   NodeAddr=node180 NodeHostName=node180 
+   RealMemory=64000 AllocMem=0 FreeMem=N/A Sockets=2 Boards=1
+   State=DOWN+DRAIN+NOT_RESPONDING ThreadsPerCore=1 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_mit_hill 
+   BootTime=None SlurmdStartTime=None
+   LastBusyTime=2024-10-23T06:40:08
+   CfgTRES=cpu=16,mem=62.50G,billing=16,gres/gpu=1
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+   Reason=REMOVED [root@2024-06-24T12:29:46]
+
+NodeName=node235 Arch=x86_64 CoresPerSocket=12 
+   CPUAlloc=48 CPUEfctv=48 CPUTot=48 CPULoad=47.93
+   AvailableFeatures=node235,centos7
+   ActiveFeatures=node235,centos7
+   Gres=gpu:8
+   NodeAddr=node235 NodeHostName=node235 Version=22.05.6
+   OS=Linux 3.10.0-1062.el7.x86_64 #1 SMP Wed Aug 7 18:08:02 UTC 2019 
+   RealMemory=128000 AllocMem=48000 FreeMem=70395 Sockets=2 Boards=1
+   State=ALLOCATED ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=sched_any,sched_mit_hill 
+   BootTime=2024-08-26T09:40:27 SlurmdStartTime=2024-10-22T13:04:33
+   LastBusyTime=2024-10-28T10:23:22
+   CfgTRES=cpu=48,mem=125G,billing=48,gres/gpu=8
+   AllocTRES=cpu=48,mem=48000M,gres/gpu=1
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node2804 Arch=x86_64 CoresPerSocket=32 
+   CPUAlloc=0 CPUEfctv=64 CPUTot=64 CPULoad=0.00
+   AvailableFeatures=node2804,rocky8
+   ActiveFeatures=node2804,rocky8
+   Gres=gpu:4
+   NodeAddr=node2804 NodeHostName=node2804 Version=22.05.6
+   OS=Linux 4.18.0-372.9.1.el8.x86_64 #1 SMP Tue May 10 14:48:47 UTC 2022 
+   RealMemory=1031000 AllocMem=0 FreeMem=1005743 Sockets=2 Boards=1
+   State=IDLE ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=mit_normal_gpu,mit_preemptable 
+   BootTime=2024-08-01T11:31:40 SlurmdStartTime=2024-10-22T13:02:08
+   LastBusyTime=2024-10-28T10:24:22
+   CfgTRES=cpu=64,mem=1031000M,billing=64,gres/gpu=4
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+
+NodeName=node2906 Arch=x86_64 CoresPerSocket=32 
+   CPUAlloc=0 CPUEfctv=128 CPUTot=128 CPULoad=0.00
+   AvailableFeatures=node2906,rocky8
+   ActiveFeatures=node2906,rocky8
+   Gres=gpu:4
+   NodeAddr=node2906 NodeHostName=node2906 Version=22.05.6
+   OS=Linux 4.18.0-372.9.1.el8.x86_64 #1 SMP Tue May 10 14:48:47 UTC 2022 
+   RealMemory=1031000 AllocMem=0 FreeMem=1018625 Sockets=2 Boards=1
+   State=IDLE ThreadsPerCore=2 TmpDisk=0 Weight=1 Owner=N/A MCS_label=N/A
+   Partitions=mit_normal_gpu,mit_preemptable 
+   BootTime=2024-09-17T12:32:20 SlurmdStartTime=2024-10-22T13:02:08
+   LastBusyTime=2024-10-28T15:51:48
+   CfgTRES=cpu=128,mem=1031000M,billing=128,gres/gpu=4
+   AllocTRES=
+   CapWatts=n/a
+   CurrentWatts=0 AveWatts=0
+   ExtSensorsJoules=n/s ExtSensorsWatts=0 ExtSensorsTemp=n/s
+

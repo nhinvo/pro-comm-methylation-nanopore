@@ -1,0 +1,18 @@
+input: 
+  sample table: inputs/samples.tsv
+
+dorado:
+  # path to location of ONT dorado installation 
+  installation path: /orcd/data/chisholm/001/nvo/bin/dorado
+
+MicrobeMod: 
+  # name of conda env where MicrobeMod dependencies were installed 
+  conda env name: microbemod_dependencies  
+  # path to location of MicrobeMod installation 
+  installation path: /orcd/data/chisholm/002/hstor001/nvo/bin/MicrobeMod
+  methylation_confidence_threshold: 0.8 # default 0.66
+  percent_methylation_cutoff: 0.5 # default 0.66
+  percent_cutoff_streme: 0.5  # default 0.9
+
+scratch directory: /nobackup1b/users/chisholmlab/nvo/24_allison_methylation/Nanopore/MicrobeMod-Snakemake
+results directory: results

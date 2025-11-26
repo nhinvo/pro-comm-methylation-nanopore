@@ -1,0 +1,1 @@
+Run fastANI of assemblies classified as Pro by GTDB-tk against Pro genomes that we have to obtain what the assemblies are most closely related to. 

@@ -1,0 +1,215 @@
+<STREME version="5.5.8" release="Thu May 15 15:01:46 2025 -0700">
+  <model>
+    <command_line>streme --dna --p data/STREME_Inputs/SQK-NBD114-24_barcode13_1_gene_pos.fasta --n data/STREME_Inputs/SQK-NBD114-24_barcode13_1_control.fasta --oc data/STREME_Outputs/SQK-NBD114-24_barcode13_1_gene</command_line>
+    <train_positives count="7222" positions="173328" maxlen="24" file="data/STREME_Inputs/SQK-NBD114-24_barcode13_1_gene_pos.fasta"/>
+    <train_negatives count="90000" positions="2160000" from="file" file="data/STREME_Inputs/SQK-NBD114-24_barcode13_1_control.fasta"/>
+    <test_positives count="802" positions="19248"/>
+    <test_negatives count="10000" positions="240000"/>
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <sequence_db A="0.206" C="0.294" G="0.294" T="0.206"/>
+    <background_frequencies source="--negatives--" order="2">
+      <alphabet_array>
+        <value letter_id="A">0.217</value>
+        <value letter_id="C">0.283</value>
+        <value letter_id="G">0.283</value>
+        <value letter_id="T">0.217</value>
+      </alphabet_array>
+    </background_frequencies>
+    <stop thresh_type="pvalue" thresh="0.05"/>
+    <objfun>Differential Enrichment</objfun>
+    <test>Fisher Exact Test</test>
+    <minw>8</minw>
+    <maxw>15</maxw>
+    <kmer>3</kmer>
+    <hofract>0.1</hofract>
+    <neval>25</neval>
+    <nref>4</nref>
+    <niter>20</niter>
+    <patience>3</patience>
+    <seed>0</seed>
+    <notrim>no</notrim>
+    <useer>no</useer>
+    <minscore>0</minscore>
+    <ignore_depth>5</ignore_depth>
+    <nsubsets>1</nsubsets>
+    <min_pal_ratio>0.85</min_pal_ratio>
+    <max_pal_ed>5</max_pal_ed>
+    <cand>no</cand>
+    <experimental>no</experimental>
+    <totallength>0</totallength>
+    <align>center</align>
+    <host>pkrvm1036rseh6a</host>
+  </model>
+  <motifs>
+    <motif id="1-NBGTSSACVN" alt="STREME-1" width="10" initial_width="7" seed="GGTGGACGAC" score_threshold="5.06953" npassing="2082" train_pos_count="1880" train_neg_count="1193" train_log_pvalue="-1372.09" train_pvalue="8.2e-1373" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="202" test_neg_count="146" test_log_pvalue="-141.626" test_pvalue="2.4e-142" test_log_evalue="-140.626" test_evalue="2.4e-141" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="yes" elapsed_time="73.5" total_sites="1880" site_distr=" 9 4 17 22 18 465 395 7 383 502 10 20 16 7 5" max_sites="2" site_hist=" 0 1866 14">
+      <pos A="0.25206" C="0.245024" G="0.199813" T="0.303103"/>
+      <pos A="0.127859" C="0.359327" G="0.274599" T="0.238215"/>
+      <pos A="5.67072e-06" C="7.40148e-06" G="0.999981" T="5.67072e-06"/>
+      <pos A="5.67072e-06" C="7.40148e-06" G="7.40148e-06" T="0.99998"/>
+      <pos A="0.0015628" C="0.514096" G="0.484335" T="5.67072e-06"/>
+      <pos A="5.67072e-06" C="0.484335" G="0.514096" T="0.0015628"/>
+      <pos A="0.99998" C="7.40148e-06" G="7.40148e-06" T="5.67072e-06"/>
+      <pos A="5.67072e-06" C="0.999981" G="7.40148e-06" T="5.67072e-06"/>
+      <pos A="0.238215" C="0.274599" G="0.359327" T="0.127859"/>
+      <pos A="0.303103" C="0.199813" G="0.245024" T="0.25206"/>
+    </motif>
+    <motif id="2-HGGCCCAGVNNNNBV" alt="STREME-2" width="15" initial_width="10" seed="AGGCCCAGGATGCGG" score_threshold="7.72821" npassing="1318" train_pos_count="1177" train_neg_count="300" train_log_pvalue="-1056.27" train_pvalue="5.4e-1057" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="141" test_neg_count="22" test_log_pvalue="-138.159" test_pvalue="6.9e-139" test_log_evalue="-137.159" test_evalue="6.9e-138" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="119.3" total_sites="1177" site_distr=" 2 0 9 278 311 295 271 7 1 3" max_sites="2" site_hist=" 0 1175 2">
+      <pos A="0.327144" C="0.254981" G="0.0843518" T="0.333523"/>
+      <pos A="7.53108e-06" C="9.82964e-06" G="0.997267" T="0.00271571"/>
+      <pos A="0.001813" C="9.82964e-06" G="0.99817" T="7.53108e-06"/>
+      <pos A="7.53108e-06" C="0.999975" G="9.82964e-06" T="7.53108e-06"/>
+      <pos A="7.53108e-06" C="0.999975" G="9.82964e-06" T="7.53108e-06"/>
+      <pos A="7.53108e-06" C="0.997854" G="0.00213102" T="7.53108e-06"/>
+      <pos A="0.999973" C="9.82964e-06" G="9.82964e-06" T="7.53108e-06"/>
+      <pos A="7.53108e-06" C="9.82964e-06" G="0.999975" T="7.53108e-06"/>
+      <pos A="0.215899" C="0.238092" G="0.383699" T="0.162309"/>
+      <pos A="0.278355" C="0.265782" G="0.242499" T="0.213365"/>
+      <pos A="0.180973" C="0.326064" G="0.274196" T="0.218767"/>
+      <pos A="0.199581" C="0.267015" G="0.333096" T="0.200308"/>
+      <pos A="0.243451" C="0.263827" G="0.218226" T="0.274496"/>
+      <pos A="0.126595" C="0.340996" G="0.338842" T="0.193567"/>
+      <pos A="0.216846" C="0.253432" G="0.364826" T="0.164896"/>
+    </motif>
+    <motif id="3-GATSNBSNBSRTGC" alt="STREME-3" width="14" initial_width="7" seed="GATCTCATCCGTTC" score_threshold="6.49158" npassing="1556" train_pos_count="1401" train_neg_count="698" train_log_pvalue="-1081.74" train_pvalue="1.8e-1082" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="155" test_neg_count="78" test_log_pvalue="-120.353" test_pvalue="4.4e-121" test_log_evalue="-119.353" test_evalue="4.4e-120" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="267.6" total_sites="1401" site_distr=" 421 178 4 2 2 0 2 3 2 259 528" max_sites="2" site_hist=" 0 1388 13">
+      <pos A="6.24809e-06" C="8.15506e-06" G="0.999979" T="6.24809e-06"/>
+      <pos A="0.999977" C="8.15506e-06" G="8.15506e-06" T="6.24809e-06"/>
+      <pos A="6.24809e-06" C="8.15506e-06" G="8.15506e-06" T="0.999977"/>
+      <pos A="0.168472" C="0.303808" G="0.383134" T="0.144585"/>
+      <pos A="0.287403" C="0.228785" G="0.247343" T="0.236469"/>
+      <pos A="0.167698" C="0.346142" G="0.25121" T="0.23495"/>
+      <pos A="0.171484" C="0.319309" G="0.354145" T="0.155062"/>
+      <pos A="0.224031" C="0.232141" G="0.295482" T="0.248345"/>
+      <pos A="0.156724" C="0.386876" G="0.24847" T="0.20793"/>
+      <pos A="0.188871" C="0.270481" G="0.423064" T="0.117584"/>
+      <pos A="0.534518" C="8.15506e-06" G="0.465467" T="6.24809e-06"/>
+      <pos A="6.24809e-06" C="8.15506e-06" G="8.15506e-06" T="0.999977"/>
+      <pos A="0.253085" C="8.15506e-06" G="0.550048" T="0.196859"/>
+      <pos A="6.24809e-06" C="0.999979" G="8.15506e-06" T="6.24809e-06"/>
+    </motif>
+    <motif id="4-NNNSNGGATCCNSNNN" alt="STREME-4" width="16" initial_width="15" seed="CTGGATCCTGGCGGCG" score_threshold="8.87535" npassing="1112" train_pos_count="999" train_neg_count="119" train_log_pvalue="-997.471" train_pvalue="3.4e-998" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="113" test_neg_count="15" test_log_pvalue="-112.267" test_pvalue="5.4e-113" test_log_evalue="-111.267" test_evalue="5.4e-112" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="yes" elapsed_time="158.7" total_sites="999" site_distr=" 0 0 0 238 506 255 0 0 0" max_sites="1" site_hist=" 0 999">
+      <pos A="0.226266" C="0.258205" G="0.289001" T="0.226528"/>
+      <pos A="0.227603" C="0.279958" G="0.265591" T="0.226848"/>
+      <pos A="0.216427" C="0.284586" G="0.242681" T="0.256306"/>
+      <pos A="0.177758" C="0.43706" G="0.235111" T="0.150071"/>
+      <pos A="0.185797" C="0.324609" G="0.201252" T="0.288342"/>
+      <pos A="8.68955e-06" C="1.13417e-05" G="0.999971" T="8.68955e-06"/>
+      <pos A="8.68955e-06" C="1.13417e-05" G="0.999971" T="8.68955e-06"/>
+      <pos A="0.999969" C="1.13417e-05" G="1.13417e-05" T="8.68955e-06"/>
+      <pos A="8.68955e-06" C="1.13417e-05" G="1.13417e-05" T="0.999969"/>
+      <pos A="8.68955e-06" C="0.999971" G="1.13417e-05" T="8.68955e-06"/>
+      <pos A="8.68955e-06" C="0.999971" G="1.13417e-05" T="8.68955e-06"/>
+      <pos A="0.288342" C="0.201252" G="0.324609" T="0.185797"/>
+      <pos A="0.150071" C="0.235111" G="0.43706" T="0.177758"/>
+      <pos A="0.256306" C="0.242681" G="0.284586" T="0.216427"/>
+      <pos A="0.226848" C="0.265591" G="0.279958" T="0.227603"/>
+      <pos A="0.226528" C="0.289001" G="0.258205" T="0.226266"/>
+    </motif>
+    <motif id="5-AGAWHVNSVRTAAN" alt="STREME-5" width="14" initial_width="14" seed="AGATCACCGGTAAA" score_threshold="9.41374" npassing="484" train_pos_count="432" train_neg_count="109" train_log_pvalue="-379.826" train_pvalue="1.5e-380" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="52" test_neg_count="15" test_log_pvalue="-45.329" test_pvalue="4.7e-046" test_log_evalue="-44.329" test_evalue="4.7e-045" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="227.6" total_sites="432" site_distr=" 23 119 96 1 0 0 0 0 66 90 37" max_sites="1" site_hist=" 0 432">
+      <pos A="0.999924" C="2.74598e-05" G="2.74598e-05" T="2.10386e-05"/>
+      <pos A="2.10386e-05" C="2.74598e-05" G="0.99993" T="2.10386e-05"/>
+      <pos A="0.999924" C="2.74598e-05" G="2.74598e-05" T="2.10386e-05"/>
+      <pos A="0.399177" C="0.116859" G="0.1509" T="0.333064"/>
+      <pos A="0.204402" C="0.388167" G="0.15155" T="0.255881"/>
+      <pos A="0.279993" C="0.267207" G="0.335672" T="0.117129"/>
+      <pos A="0.210671" C="0.304844" G="0.19578" T="0.288705"/>
+      <pos A="0.0752741" C="0.489276" G="0.281657" T="0.153793"/>
+      <pos A="0.276586" C="0.239691" G="0.394334" T="0.0893889"/>
+      <pos A="0.434298" C="2.74598e-05" G="0.565653" T="2.10386e-05"/>
+      <pos A="2.10386e-05" C="2.74598e-05" G="2.74598e-05" T="0.999924"/>
+      <pos A="0.999924" C="2.74598e-05" G="2.74598e-05" T="2.10386e-05"/>
+      <pos A="0.995516" C="2.74598e-05" G="2.74598e-05" T="0.00442899"/>
+      <pos A="0.293009" C="0.294498" G="0.200101" T="0.212392"/>
+    </motif>
+    <motif id="6-CGVCGACGTCGBCG" alt="STREME-6" width="14" initial_width="14" seed="GACGACGTCGGCGA" score_threshold="9.95344" npassing="469" train_pos_count="422" train_neg_count="147" train_log_pvalue="-346.414" train_pvalue="3.9e-347" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="47" test_neg_count="21" test_log_pvalue="-37.0084" test_pvalue="9.8e-038" test_log_evalue="-36.0084" test_evalue="9.8e-037" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="yes" elapsed_time="195.0" total_sites="422" site_distr=" 2 9 22 15 60 155 85 30 34 9 1" max_sites="1" site_hist=" 0 422">
+      <pos A="0.0689493" C="0.530356" G="0.259667" T="0.141028"/>
+      <pos A="0.227953" C="0.149125" G="0.610129" T="0.0127928"/>
+      <pos A="0.275522" C="0.380815" G="0.197605" T="0.146057"/>
+      <pos A="0.0395819" C="0.724777" G="0.235621" T="1.98285e-05"/>
+      <pos A="0.204591" C="0.0408479" G="0.754542" T="1.98285e-05"/>
+      <pos A="0.999928" C="2.58804e-05" G="2.58804e-05" T="1.98285e-05"/>
+      <pos A="1.98285e-05" C="0.999934" G="2.58804e-05" T="1.98285e-05"/>
+      <pos A="1.98285e-05" C="2.58804e-05" G="0.999934" T="1.98285e-05"/>
+      <pos A="1.98285e-05" C="2.58804e-05" G="2.58804e-05" T="0.999928"/>
+      <pos A="1.98285e-05" C="0.754542" G="0.0408479" T="0.204591"/>
+      <pos A="1.98285e-05" C="0.235621" G="0.724777" T="0.0395819"/>
+      <pos A="0.146057" C="0.197605" G="0.380815" T="0.275522"/>
+      <pos A="0.0127928" C="0.610129" G="0.149125" T="0.227953"/>
+      <pos A="0.141028" C="0.259667" G="0.530356" T="0.0689493"/>
+    </motif>
+    <motif id="7-GAAVNBSNNBHGTC" alt="STREME-7" width="14" initial_width="14" seed="GAACTCGCAGTGTC" score_threshold="6.50086" npassing="212" train_pos_count="196" train_neg_count="174" train_log_pvalue="-118.319" train_pvalue="4.8e-119" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="16" test_neg_count="19" test_log_pvalue="-9.10664" test_pvalue="7.8e-010" test_log_evalue="-8.10664" test_evalue="7.8e-009" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="295.2" total_sites="196" site_distr=" 53 31 0 1 0 1 0 0 2 43 65" max_sites="1" site_hist=" 0 196">
+      <pos A="5.41339e-05" C="7.06561e-05" G="0.999821" T="5.41339e-05"/>
+      <pos A="0.999805" C="7.06561e-05" G="7.06561e-05" T="5.41339e-05"/>
+      <pos A="0.999805" C="7.06561e-05" G="7.06561e-05" T="5.41339e-05"/>
+      <pos A="0.231384" C="0.360235" G="0.231869" T="0.176511"/>
+      <pos A="0.241297" C="0.267695" G="0.239465" T="0.251543"/>
+      <pos A="5.41339e-05" C="0.374532" G="0.38335" T="0.242063"/>
+      <pos A="5.41339e-05" C="0.403421" G="0.596471" T="5.41339e-05"/>
+      <pos A="0.216261" C="0.335538" G="0.2188" T="0.229401"/>
+      <pos A="0.294953" C="0.15902" G="0.315246" T="0.230781"/>
+      <pos A="0.12558" C="0.268034" G="0.326155" T="0.280231"/>
+      <pos A="0.227388" C="0.369618" G="0.0130481" T="0.389945"/>
+      <pos A="5.41339e-05" C="7.06561e-05" G="0.999821" T="5.41339e-05"/>
+      <pos A="5.41339e-05" C="7.06561e-05" G="7.06561e-05" T="0.999805"/>
+      <pos A="5.41339e-05" C="0.999821" G="7.06561e-05" T="5.41339e-05"/>
+    </motif>
+    <motif id="8-CTGGACGTTGCC" alt="STREME-8" width="12" initial_width="12" seed="CTGGACGTTGCC" score_threshold="18.9131" npassing="10" train_pos_count="9" train_neg_count="1" train_log_pvalue="-9.19398" train_pvalue="6.4e-010" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="1" test_neg_count="0" test_log_pvalue="-1.12933" test_pvalue="7.4e-002" test_log_evalue="-0.12933" test_evalue="7.4e-001" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="370.7" total_sites="9" site_distr=" 0 0 0 1 1 0 3 3 1 0 0 0 0" max_sites="1" site_hist=" 0 9">
+      <pos A="0.00100321" C="0.996684" G="0.0013094" T="0.00100321"/>
+      <pos A="0.00100321" C="0.121559" G="0.0013094" T="0.876128"/>
+      <pos A="0.00100321" C="0.0013094" G="0.996684" T="0.00100321"/>
+      <pos A="0.00100321" C="0.0013094" G="0.996684" T="0.00100321"/>
+      <pos A="0.996378" C="0.0013094" G="0.0013094" T="0.00100321"/>
+      <pos A="0.00100321" C="0.996684" G="0.0013094" T="0.00100321"/>
+      <pos A="0.00100321" C="0.0013094" G="0.996684" T="0.00100321"/>
+      <pos A="0.00100321" C="0.0013094" G="0.0013094" T="0.996378"/>
+      <pos A="0.00100321" C="0.0013094" G="0.121559" T="0.876128"/>
+      <pos A="0.00100321" C="0.0013094" G="0.996684" T="0.00100321"/>
+      <pos A="0.00100321" C="0.876434" G="0.121559" T="0.00100321"/>
+      <pos A="0.00100321" C="0.996684" G="0.0013094" T="0.00100321"/>
+    </motif>
+    <motif id="9-SGACGTCGGA" alt="STREME-9" width="10" initial_width="10" seed="CGACGTCGGA" score_threshold="16.7353" npassing="17" train_pos_count="16" train_neg_count="3" train_log_pvalue="-15.1803" train_pvalue="6.6e-016" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="1" test_neg_count="2" test_log_pvalue="-0.684814" test_pvalue="2.1e-001" test_log_evalue="0.315186" test_evalue="2.1e+000" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="320.1" total_sites="16" site_distr=" 0 0 0 0 3 1 2 4 3 3 0 0 0 0 0" max_sites="1" site_hist=" 0 16">
+      <pos A="0.000524955" C="0.606437" G="0.392513" T="0.000524955"/>
+      <pos A="0.000524955" C="0.252398" G="0.746552" T="0.000524955"/>
+      <pos A="0.998105" C="0.000685177" G="0.000685177" T="0.000524955"/>
+      <pos A="0.000524955" C="0.998265" G="0.000685177" T="0.000524955"/>
+      <pos A="0.000524955" C="0.000685177" G="0.998265" T="0.000524955"/>
+      <pos A="0.000524955" C="0.000685177" G="0.000685177" T="0.998105"/>
+      <pos A="0.000524955" C="0.998265" G="0.000685177" T="0.000524955"/>
+      <pos A="0.000524955" C="0.0477487" G="0.951201" T="0.000524955"/>
+      <pos A="0.000524955" C="0.000685177" G="0.998265" T="0.000524955"/>
+      <pos A="0.935181" C="0.000685177" G="0.0636088" T="0.000524955"/>
+    </motif>
+    <motif id="10-GCTGGACGTCCG" alt="STREME-10" width="12" initial_width="11" seed="GCTGGACGTCCG" score_threshold="16.8025" npassing="8" train_pos_count="8" train_neg_count="1" train_log_pvalue="-8.10981" train_pvalue="7.8e-009" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="0" test_neg_count="1" test_log_pvalue="0" test_pvalue="1.0e+000" test_log_evalue="1" test_evalue="1.0e+001" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="345.5" total_sites="8" site_distr=" 0 0 1 1 0 0 1 3 2 0 0 0 0" max_sites="1" site_hist=" 0 8">
+      <pos A="0.0197182" C="0.0257364" G="0.934827" T="0.0197182"/>
+      <pos A="0.0197182" C="0.934827" G="0.0257364" T="0.0197182"/>
+      <pos A="0.0197182" C="0.0257364" G="0.0257364" T="0.928809"/>
+      <pos A="0.0197182" C="0.0257364" G="0.934827" T="0.0197182"/>
+      <pos A="0.0197182" C="0.0257364" G="0.934827" T="0.0197182"/>
+      <pos A="0.928809" C="0.0257364" G="0.0257364" T="0.0197182"/>
+      <pos A="0.0197182" C="0.934827" G="0.0257364" T="0.0197182"/>
+      <pos A="0.0197182" C="0.0257364" G="0.934827" T="0.0197182"/>
+      <pos A="0.0197182" C="0.0257364" G="0.0257364" T="0.928809"/>
+      <pos A="0.0197182" C="0.934827" G="0.0257364" T="0.0197182"/>
+      <pos A="0.0197182" C="0.934827" G="0.0257364" T="0.0197182"/>
+      <pos A="0.0197182" C="0.0257364" G="0.934827" T="0.0197182"/>
+    </motif>
+  </motifs>
+  <reason_for_stopping>Stopped because 3 consecutive motifs exceeded the p-value threshold (0.05).</reason_for_stopping>
+  <run_time cpu="371.67"/>
+</STREME>

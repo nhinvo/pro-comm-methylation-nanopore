@@ -1,0 +1,6 @@
+2024-11-12 18:52:42,178 NanoQC started.
+2024-11-12 18:55:36,184 Extracting nucleotides and quality scores.
+2024-11-12 18:59:30,759 Using 1147355 reads with a minimum length of 200bp for plotting
+2024-11-12 18:59:30,759 Creating plots...
+2024-11-12 19:01:10,311 Per base sequence content and quality completed.
+2024-11-12 19:01:10,491 Finished!

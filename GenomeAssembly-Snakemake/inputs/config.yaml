@@ -1,0 +1,20 @@
+experiment_name: MAG assembly pipeline 
+
+input: 
+  sample table: inputs/samples.tsv
+  seq data type: nanopore long read  # alternative: illumina short read
+  adapter_file: inputs/all_illumina_adapters.fa  
+
+database: 
+  checkM database: /nfs/chisholmlab002/nvo/databases/checkM2_database/CheckM2_database/uniref100.KO.1.dmnd
+  GTDB database: /nfs/chisholmlab002/nvo/databases/GTDB/release220
+  eggnogg database: /nobackup1b/users/chisholmlab/databases/eggnog_database
+
+# NOTE: Gene Annotation will be done using Anvio instead
+additional output:
+  genome comparison: False
+  gene annotation: False
+  eggnog gene annotation: False
+
+scratch directory: /nobackup1b/users/chisholmlab/nvo/24_allison_methylation/Nanopore/GenomeAssembly-Snakemake
+results directory: results
