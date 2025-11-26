@@ -6,7 +6,6 @@
 #SBATCH -o logs/main.%j.out
 #SBATCH -e logs/main.%j.err
 
-eval "$(conda shell.bash hook)"
-conda activate snakemake
+conda activate snakemake-7.32.4
 
 snakemake --profile profile 
