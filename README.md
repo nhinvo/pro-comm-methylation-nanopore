@@ -74,5 +74,37 @@ To replicate the assembly workflow, follow the steps below:
 Assembled reference genomes were annotated using Anvi'o. Scripts are located in `AnvioGeneAnnotation/` directory.  
 
 **Scripts:**  
-  - `01.AnvioGenContigDb.sbatch`: creates Anvi'o contigs DB for genomes from     
-  - `02.parse_anvio_genes.py`: 
+  - `01.AnvioGenContigDb.sbatch`: creates Anvi'o contigs DB for genomes in analysis.  
+  - `02.parse_anvio_genes.py`: parse Anvi'o outputs to obtain gene annotations and their metadata with columns: 
+    - gene_callers_id	contig	start	stop	Archaea_76	Bacteria_71	COG20_CATEGORY	COG20_FUNCTION	COG20_PATHWAY	CyCOGv6	KEGG_BRITE	KEGG_Class	KEGG_Module	KOfam	Protista_83	Ribosomal_RNA_16S	Ribosomal_RNA_23S	Transfer_RNAs	Archaea_76_ACC	Bacteria_71_ACC	COG20_CATEGORY_ACC	COG20_FUNCTION_ACC	COG20_PATHWAY_ACC	CyCOGv6_ACC	KEGG_BRITE_ACC	KEGG_Class_ACC	KEGG_Module_ACC	KOfam_ACC	Protista_83_ACC	Ribosomal_RNA_16S_ACC	Ribosomal_RNA_23S_ACC	Transfer_RNAs_ACC	type
+
+## Methylation Calling with MicrobeMod  
+Methylated bases are called using MicrobeMod, scripts are located in `MicrobeMod-Snakemake` directory.   
+
+Instructions on how to run this pipeline are located at this Github repository here: https://github.com/nhinvo/methylation-pipeline 
+
+Results of the pipeline are further parsed downstream in directory: `MethylationDataAnalysis`. 
+
+## Analysis of Methylation Data  
+Outputs from MicrobeMod are analyzed in `MethylationDataAnalysis` directory.   
+  - MethylatedPosGeneMapping: scripts to analyze where on the gene methylation occurs.   
+    - `01.parse.py`: maps Anvi'o annotations to methylated positions.    
+    - `02.analysis.py`: performs various analyses on the parsedd data from step 1: 
+      - Percent gene/intergenic regions methylated
+      - Position of methylation on genome 
+      - COG categories of methylated genes 
+      - Genes near methylated intergenic regions    
+    - `03.plot.py`: 
+      - Plot outputs of the analyses done in step 2
+  - MethylatedSitesCoveragePlotting:  
+    - `coverage_v_modification.py`: to plot coverage vs. percent modified for methylated positions.    
+    - `modification_distribution.py`: to plot distribution of percent of bases modified.  
+    - `motif_v_modification.py`: to plot methylated sites with and without motifs assigned.  
+  - `STREME_Motif/GeneVsIntergenicMotifs`:  
+    - `1.prep_streme.py`: to prepare inputs for STREME.    
+    - `2.STREME.sbatch`: script to perform STREME motif finding (independent of MicrobeMod to compare results).   
+    - `3.parse_STREME.py`: script to parse STREME outputs.  
+
+## QC: read classification    
+Raw reads were classified using ProSynTax to confirm sample composition. Snakemake pipeline and results located in `QC/ProClassifier`.   
+Documentation on how to run ProSynTax is located at this Github repository here: https://github.com/jamesm224/ProSynTax-workflow/tree/main  
